@@ -37,20 +37,26 @@ const servers: Server[] = [
     name: "Neo_Babel",
     address: "mc.nizaralghifary.my.id:19834",
     description: "Still Development",
-    type: "Adventure",
+    type: "Adventure"
   },
   {
     name: "Nzr_Survival",
     address: "survival.nizaralghifary.my.id:35768",
     description: "World Survival Biasa",
-    type: "Survival",
+    type: "Survival"
   },
   {
     name: "Pioneer",
     address: "pioneer.aternos.me:15757",
     description: "World Survival Punya Azzam",
-    type: "Survival",
+    type: "Survival"
   },
+  {
+    name: "Survival_2",
+    address: "survival-2.nizaralghifary.my.id",
+    description: "World Survival Kedua",
+    type: "Survival"
+  }
 ];
 
 export default function ServerList() {
