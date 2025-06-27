@@ -53,7 +53,7 @@ const servers: Server[] = [
   },
   {
     name: "Survival_2",
-    address: "survival-2.nizaralghifary.my.id",
+    address: "survival-2.nizaralghifary.my.id:40993",
     description: "World Survival Kedua",
     type: "Survival"
   }
