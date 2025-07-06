@@ -56,6 +56,12 @@ const servers: Server[] = [
     address: "survival-2.nizaralghifary.my.id:40993",
     description: "World Survival Kedua",
     type: "Survival"
+  },
+  {
+    name: "Nizar_Server",
+    address: "adventure.nizaralghifary.my.id:51741",
+    description: "World Pertama yang Run 24 Jam",
+    type: "Creative"
   }
 ];
 
