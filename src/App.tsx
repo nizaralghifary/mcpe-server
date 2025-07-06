@@ -160,7 +160,7 @@ export default function ServerList() {
                       Server Status:
                     </p>
                     <p className="text-sm text-gray-400">
-                      {serverStatus.motd?.clean || "N/A"}
+                      {serverStatus.motd?.clean?.split("|").map((line, idx) => <span key={idx} className="block">{line.trim()}</span>)) || "N/A"}
                     </p>
                     <p className="text-sm text-gray-400">
                       Players: {serverStatus.players?.online || 0}/{serverStatus.players?.max || 0}
